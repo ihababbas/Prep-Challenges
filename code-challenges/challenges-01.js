@@ -35,7 +35,7 @@ const findMax = (arr) => {
 //  Output: 81
 const sumNums = (arr) => {
   let sum = 0;
-  for (i=0; i <= arr.length ; i++ )
+  for (let i=0; i <= arr.length ; i++ )
   {
      if(typeof(arr[i])=== "number")
      sum = sum + arr[i];
